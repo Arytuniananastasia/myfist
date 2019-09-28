@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55cb909b-80a8-47ad-b31d-154c35a88c41" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/shape.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my_first_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_first_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+    <list default="true" id="55cb909b-80a8-47ad-b31d-154c35a88c41" name="Default" comment="alex коммит">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,10 +39,10 @@
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kapit\PhpstormProjects\my_first_project\images" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kapit\PhpstormProjects\my_first_project\images" />
     </key>
   </component>
@@ -91,8 +86,23 @@
       <workItem from="1569172420688" duration="901000" />
       <workItem from="1569267915644" duration="6167000" />
       <workItem from="1569275756381" duration="10355000" />
-      <workItem from="1569507706510" duration="2854000" />
+      <workItem from="1569507706510" duration="2994000" />
     </task>
+    <task id="LOCAL-00001" summary="моц коммит">
+      <created>1569675262204</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569675262205</updated>
+    </task>
+    <task id="LOCAL-00002" summary="alex коммит">
+      <created>1569675318716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569675318716</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,5 +120,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="моц коммит" />
+    <MESSAGE value="alex коммит" />
+    <option name="LAST_COMMIT_MESSAGE" value="alex коммит" />
   </component>
 </project>
