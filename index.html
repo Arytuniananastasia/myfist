@@ -1,66 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <title>Моя первая страница</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-<div class="main">
+<div id="main">
     <header>
-        <span class="logo_img">
-            <img src="./images/logo.svg" alt="">
-        </span>
-        <button class="install button">
-            + установить расширение
-        </button>
-    </header>
-    <div class="bread-camps">
-        <a href="" class="home">home</a>
-        <span class="spacer"></span>
-        <a href="">избранное</a>
-    </div>
-    <div class="product_list__container">
-        <div class="product_item">
-            <table>
-                <tr>
-                    <td>
-                        <div class="product-img"><img src="./images/1-452x552.jpg" alt=""></div>
-                    </td>
-                    <td>
-                        <div
-                                class="product-title">
-                            Купить Сумка для ноутбука 14" HP Envy Urban Tote, серый по выгодной цене в интернет-магазине
-                            СИТИЛИНК - Санкт-Петербург
-                        </div>
-                        <div
-                                class="shop-name">
-                            магазин:
-                            <span class="shop-img">
-                            <img src="images/auto-ru-logo.svg" alt="">
-                            </span>
-                        </div>
-                        <div>
-                            <span class="item-price">
-                                    1 299 000,00 RUB
-                            </span>
-                            <span class="item-price-low">
-                                <img src="images/shape-down.svg" alt="">
-                            </span>
-                            <span class="item-price-lightning">
-                                <img src="images/shape.svg" alt="">
-                            </span>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-            <span class="btn-bookmark item-btn"><img src="images/bookmark.svg" alt=""></span>
-            <span class="btm-text-edit item-btn"><img src="images/text-edit.svg" alt=""></span>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                 <span class="logo_img">
+                    <img src="./images/logo.svg" alt="">
+                </span>
+                    <button class="install button">
+                        + установить расширение
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="product_item"></div>
+
+    </header>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col">
+                <div class="bread-camps">
+                    <a href="" class="home">home</a>
+                    <span class="spacer"></span>
+                    <a href="">избранное</a>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
 
-
+    <div class="container">
+        <div class="product_list__container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="product_item">
+                        <div class="product-img"><img src="./images/1-452x552.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="product-title">
+                        Купить Сумка для ноутбука 14" HP Envy Urban Tote, серый по выгодной цене в
+                        интернет-магазине
+                        СИТИЛИНК - Санкт-Петербург
+                    </div>
+                    <div class="shop-name">
+                        магазин:
+                        <span class="shop-img">
+                            <img src="images/auto-ru-logo.svg" alt="">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

@@ -1,18 +1,23 @@
-html,body{
+html, body {
     font-family: arial;
     font-size: 14px;
 }
-.product_list__container {
-    padding: 0 10%;
+
+#main {
+    margin-top: 50px
+}
+
+.product_list__container{
+    border: solid 1px #f2f2f2;
+    padding: 24px;
 }
 
 .product_item {
-    padding: 24px 130px 24px 24px;
+    width: 100%;
     position: relative;
-    border: solid 1px #f2f2f2;
 }
 
-.product_item > table {
+.product_item {
     width: 100%;
 }
 
@@ -27,16 +32,15 @@ tr td:nth-of-type(2) {
 
 .product-img {
     border-radius: 6px;
-    width: 265px;
-    height: 265px;
+    width: 100%;
     border: solid 1px #8bd9ff;
     padding: 17px;
     text-align: center;
 }
 
 .product-img > img {
-    max-width: 265px;
-    max-height: 265px;
+    max-width: 225px;
+    max-height: 225px;;
 
 }
 
@@ -62,27 +66,35 @@ tr td:nth-of-type(2) {
 .btm-text-edit {
     right: 99px;
 }
-.shop-img{
-    poposition: absolute;
-    right: 423px;
+
+.shop-img {
+    border-right-width: 22px;
+    width: 64px;
+    padding-left: 0px;
+    right: 20px;
+    margin-left:36px;
 }
-.item-price{
+
+.item-price {
     margin-top: 126px;
     position: absolute;
     font-family: Arial;
     font-size: 27px;
     font-weight: bold;
 }
-.item-price-low{
+
+.item-price-low {
     margin-top: 126px;
     position: absolute;
     right: 767px;
 }
-.item-price-lightning{
+
+.item-price-lightning {
     margin-top: 126px;
     position: absolute;
     right: 731px;
 }
+
 .install {
     width: 228px;
     height: 30px;
@@ -90,29 +102,27 @@ tr td:nth-of-type(2) {
     text-align: center;
     background: #3cff26;
     border-radius: 5px;
-    box-shadow: 0 2px 4px 0;
     margin-top: 8px;
-    position: absolute;
-    right: 192px;
+    float: right;
+    border: 1px solid #3cff26;
+    box-shadow: none;
 }
-header{
+
+header {
     width: 100%;
     position: fixed;
     background: white;
     height: 50px;
     border: solid 1px #f2f2f2;
+    top: 0;
 }
 
-.bread-camps{
-    padding-top: 100px
+.bread-camps {
 }
-.logo_img{
+
+.logo_img {
     margin-top: 4px;
     position: absolute;
-    left: 170px;
 }
-.bread-camps{
-    padding-bottom: 20px;
-    padding-top: 80px;
-    padding-left: 178px;
-}
+
+
